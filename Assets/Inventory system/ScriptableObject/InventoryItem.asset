@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 472ce071dae244644acbd8cbc5e5fd4a, type: 3}
+  m_Name: InventoryItem
+  m_EditorClassIdentifier: 
+  itemName: Item
+  modelPrefab:
+    m_AssetGUID: 5e07b431d60b3e84abb339c877061b1e
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
+  collectablePrefab:
+    m_AssetGUID: 5e07b431d60b3e84abb339c877061b1e
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
+  icon: {fileID: 21300000, guid: 8f08bb4b317165a409c20d0f591d13a8, type: 3}
+  attachmentPosition: {x: 0.43, y: -0.2, z: 0.47}
+  attachmentRotation: {x: 13.95, y: 35.87, z: 0}
