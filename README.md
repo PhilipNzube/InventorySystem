@@ -37,3 +37,27 @@ The main implementation is located in `Assets/Inventory system/Script/`.
 - **Unity Addressables**
 - **TextMeshPro**
 - **Unity UI**
+
+## Getting started
+
+Clone the repository:
+
+```bash
+git clone https://github.com/PhilipNzube/InventorySystem.git
+```
+
+Open the project through Unity Hub and allow Unity to import the assets and packages.
+
+The project includes a Unity `Packages/manifest.json` with dependencies such as Addressables, TextMeshPro, and the Universal Render Pipeline.
+
+## Scene setup
+
+The inventory scripts rely on references configured through the Unity Inspector.
+
+For the system to work correctly, the relevant GameObjects need their required components and references assigned. These include the inventory manager, item attachment transforms, inventory UI prefab, inventory parent, and Addressables references for item assets.
+
+Collectible objects should have an `ItemContainer` component and an appropriate trigger collider.
+
+## Notes
+
+The repository contains inventory-related implementations and supporting project assets. Some scripts represent alternative approaches to inventory management, so check which implementation is being used by the demo scene before integrating the system into another project.
